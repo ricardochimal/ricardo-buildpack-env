@@ -1,4 +1,4 @@
-# Ricardo Chimal, Jr's Dev Environment
+## My Personal Dev Environment
 
 ### Includes
 
