@@ -2,7 +2,7 @@
 #
 # usage: bin/compile <build-dir> <cache-dir> 
 
-set -e
+set -ex
 
 # Paths.
 BIN_DIR=$(cd $(dirname $0); pwd) # absolute path
