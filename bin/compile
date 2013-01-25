@@ -19,6 +19,7 @@ cd .vim
 ls -al
 pwd
 git version
+env
 git remote -v
 git submodule init
 git submodule update
