@@ -18,6 +18,8 @@ git clone git://github.com/ricardochimal/vim-dotfiles.git .vim
 cd .vim
 ls -al
 pwd
+git version
+git remote -v
 git submodule init
 git submodule update
 cd ..
