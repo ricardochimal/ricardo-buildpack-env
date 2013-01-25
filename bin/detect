@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Ricardo's Dev Environment"
+exit 0
