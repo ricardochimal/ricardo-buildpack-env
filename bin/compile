@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# usage: bin/compile <build-dir> <cache-dir> 
+
+set -e
+
+# Paths.
+BIN_DIR=$(cd $(dirname $0); pwd) # absolute path
+ROOT_DIR=$(dirname $BIN_DIR)
+BUILD_DIR=$1
+CACHE_DIR=$2
+
+cd $BUILD_DIR
+
+echo '-----> Fetching .vim configuration'
+
+git clone git://github.com/ricardochimal/vim-dotfiles.git .vim
+cd .vim
+git submodule init
+git submodule update
+cd ..
+ln -s .vim/vimrc .vimrc
