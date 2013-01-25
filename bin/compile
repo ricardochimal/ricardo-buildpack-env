@@ -10,6 +10,8 @@ ROOT_DIR=$(dirname $BIN_DIR)
 BUILD_DIR=$1
 CACHE_DIR=$2
 
+unset GIT_DIR
+
 cd $BUILD_DIR
 
 echo '-----> Fetching .vim configuration'
