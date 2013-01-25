@@ -17,6 +17,7 @@ echo '-----> Fetching .vim configuration'
 git clone git://github.com/ricardochimal/vim-dotfiles.git .vim
 cd .vim
 ls -al
+pwd
 git submodule init
 git submodule update
 cd ..
