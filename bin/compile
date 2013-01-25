@@ -10,6 +10,8 @@ ROOT_DIR=$(dirname $BIN_DIR)
 BUILD_DIR=$1
 CACHE_DIR=$2
 
+# Sanitizing environment variables
+
 unset GIT_DIR
 
 cd $BUILD_DIR
@@ -22,8 +24,8 @@ ls -al
 pwd
 git version
 env
-git remote -v
-git submodule init
-git submodule update
+$(git remote -v)
+$(git submodule init)
+$(git submodule update)
 cd ..
 ln -s .vim/vimrc .vimrc
