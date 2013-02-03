@@ -14,6 +14,11 @@ CACHE_DIR=$2
 
 unset GIT_DIR
 
+echo "BIN_DIR -> $BIN_DIR"
+echo "ROOT_DIR -> $ROOT_DIR"
+echo "BUILD_DIR -> $BUILD_DIR"
+echo "CACHE_DIR -> $CACHE_DIR"
+
 cd $BUILD_DIR
 
 echo '-----> Fetching .vim configuration'
