@@ -18,6 +18,7 @@ echo "BIN_DIR -> $BIN_DIR"
 echo "ROOT_DIR -> $ROOT_DIR"
 echo "BUILD_DIR -> $BUILD_DIR"
 echo "CACHE_DIR -> $CACHE_DIR"
+echo "PWD -> $(pwd)"
 
 cd $BUILD_DIR
 
