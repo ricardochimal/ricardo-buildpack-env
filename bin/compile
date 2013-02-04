@@ -24,7 +24,7 @@ cd $BUILD_DIR
 
 echo '-----> Fetching .vim configuration'
 
-rm -rf vim
+rm -rf .vim
 git clone git://github.com/ricardochimal/vim-dotfiles.git .vim
 cd .vim
 git submodule init
